@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Simple Homepage</title>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+        <script src="switchToggle.js"></script>
+    </head>
+    <body>
+        <div id="Cabecera">
+            <div id="Logo">
+                <img src="alarado-icon-homepage.svg">
+            </div>
+            <div id="Opciones">
+                <p class="small_text_C" id="Initial">About us</p>
+                <p class="small_text_C">Product</p>
+                <p class="small_text_C">Resource</p>
+                <p class="small_text_C">Contact</p>
+            </div>
+            <div id="Switch" onclick="toggleSwitch()">
+                <img id="moon" src="Moon_fill_light.svg" alt="Moon Icon">
+                <img id="sun" src="Sun_fill.svg" alt="Sun Icon">
+            </div>            
+        </div>
+        <div id="Contenido">
+            <div id="Descripcion">
+                <p class="body" id="Emoji">😎  SIMPLE WAY TO COMMUNICATE</p>
+                <h1>Actions for Accessibility in Design</h1>
+                <p class="body">The fastest way to build and deploy websites with resusable components.</p>
+                <div id="Botonees">
+                    <input type="button" value="GET STARTED">
+                    <p class="button_text">Get live demo</p>
+                </div>
+                <div id="Ventajas">
+                    <img src="Done_ring_round_fill.svg">
+                    <p class="small_text">No credit card required</p>
+                    <img src="Done_ring_round_fill.svg">
+                    <p class="small_text">No software to install</p>
+                </div>
+            </div>
+            <div id="Imagen">
+                <img src="hero-image-simple-homepage.png">
+            </div>
+        </div>
+    </body>
+</html>

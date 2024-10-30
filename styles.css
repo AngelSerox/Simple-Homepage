@@ -1,0 +1,176 @@
+/* General styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+#Cabecera {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+#Logo img {
+    height: 1.875rem; /* Ajusta el tamaño del logo para que coincida con el tamaño de los párrafos */
+    width: auto; /* Mantiene la proporción del logo */
+}
+
+#Opciones p {
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+#Switch {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 4px 9px;
+    background-color: #111729; /* Fondo oscuro */
+    border-radius: 17px;
+    transition: background-color 0.3s ease; /* Animación de cambio de color */
+}
+
+#Switch img {
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+}
+
+#Switch img#moon {
+    border-radius: 50%; /* Hace que el icono de la luna sea circular */
+    padding: 2.5px; /* Espaciado interno ajustado */
+}
+
+#Switch.light {
+    background-color: white; /* Fondo claro cuando está activo */
+}
+
+#Switch.light img#moon {
+    background-color: #223344; /* Fondo oscuro para la luna cuando está activo */
+    padding: 2.5px; /* Espaciado interno ajustado */
+}
+
+#Switch img:nth-child(2) {
+    background-color: white; /* Fondo blanco para el icono del sol */
+    border-radius: 50%; /* Hace que el icono del sol sea circular */
+    padding: 2.5px; /* Espaciado interno intermedio */
+}
+
+/* Contenido styling */
+#Contenido {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+#Descripcion, #Imagen {
+    flex: 1;
+    padding: 0 20px;
+    text-align: left;
+}
+
+/* Botones styling */
+#Botonees {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+#Botonees input[type="button"] {
+    background-color: #2A4DD0;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.button_text{
+    color: #2A4DD0; /* Color azul */
+    text-decoration: underline; /* Subrayado */
+    font-size: 0.875rem;
+    margin: 0;
+    font-weight: bold;
+}
+
+#Ventajas {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+#Ventajas img {
+    width: 20px;
+    height: 20px;
+}
+
+#Imagen img {
+    width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
+    max-width: 500px; /* Ajusta este valor para controlar el tamaño máximo */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block;
+    margin: 0 auto;
+}
+
+/* Tamaño del título */
+h1 {
+    font-size: 3.75rem;
+    margin: 0.5em 0;
+    color: #223344;
+}
+
+/* Tamaño de párrafos con clase 'body' */
+.body {
+    font-size: 1.125rem;
+    line-height: 1.6;
+    color: #909193;
+}
+
+#Initial{
+    color: #223344;
+}
+
+#Emoji{
+    font-weight: bold;
+    color: #223344;
+}
+
+/* Tamaño de texto en el div de botones */
+#Botonees p {
+    font-size: 1rem;
+    margin: 0;
+}
+
+/* Tamaño de texto pequeño con clase 'small_text' */
+.small_text {
+    font-size: 0.875rem;
+    line-height: 1.4;
+    color: #909193;
+}
+
+.small_text_C {
+    font-size: 0.875rem;
+    line-height: 1.4;
+    color: #909193;
+    font-weight: 600;
+}
+
+#Opciones {
+    display: flex;
+    gap: 20px; /* Espacio entre cada opción, ajusta según sea necesario */
+    align-items: center; /* Alineación vertical */
+    justify-content: center; /* Centrado horizontal */
+}
